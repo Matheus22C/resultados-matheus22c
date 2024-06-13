@@ -92,7 +92,7 @@ body {
     margin-bottom: 1.6rem;
 }
 
-resumo > div div {
+.resumo > div div{
     display: flex;
     align-items: center;
     gap: 1.2rem;
@@ -154,7 +154,7 @@ body {
         border-radius: 3.2rem;
     }
 
-    .resultados {
+    .resultado {
         padding-block: 3.8rem;
         border-radius: 3.2rem;
     }
@@ -201,12 +201,12 @@ body {
         font-size: 1.8rem;
     }
 
-    resumo button {
+    .resumo button {
         margin-top: 2.4rem;
     }
 
-    resumo button:hover {
+    .resumo button:hover {
         background: var(--resultado-bg);
         cursor: pointer;
     }
-} 
+}
